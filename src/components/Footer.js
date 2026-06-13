@@ -9,9 +9,18 @@ const Footer = () => {
       <Layout className="py-8 flex items-center justify-between lg:flex-col lg:py-6">
         <span>{new Date().getFullYear()} &copy; All Rights Reserved.</span>
         <div className="flex items-center justify-center flex-wrap gap-6 lg:py-2">
-          <Link href="tel:+918108741281" className="w-6 hover:-translate-y-1 transition-transform">
+          {/* Mobile View - Dialer */}
+          <Link href="tel:+918108741281" className="hidden md:block w-6 hover:-translate-y-1 transition-transform">
             <PhoneIcon />
           </Link>
+          
+          {/* Desktop View - Floating Window */}
+          <div className="relative block md:hidden group cursor-pointer w-6 hover:-translate-y-1 transition-transform">
+            <PhoneIcon />
+            <div className="absolute bottom-10 left-1/2 -translate-x-1/2 hidden group-hover:block bg-dark text-light dark:bg-light dark:text-dark px-4 py-2 rounded-lg shadow-xl whitespace-nowrap text-sm font-bold z-50 border border-solid border-light dark:border-dark">
+              My Number: 8108741281
+            </div>
+          </div>
           <Link href="mailto:atharvakumbhar669@gmail.com" target="_blank" className="w-6 hover:-translate-y-1 transition-transform">
             <EmailIcon />
           </Link>

@@ -115,14 +115,18 @@ const NavBar = () => {
           >
             <EmailIcon />
           </motion.a>
-          <motion.a
-            href="tel:+918108741281"
-            className="w-6 ml-3"
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}
-          >
-            <PhoneIcon />
-          </motion.a>
+          <div className="relative group cursor-pointer ml-3">
+            <motion.div
+              whileHover={{ y: -2 }}
+              whileTap={{ scale: 0.9 }}
+              className="w-6"
+            >
+              <PhoneIcon />
+            </motion.div>
+            <div className="absolute top-10 left-1/2 -translate-x-1/2 hidden group-hover:block bg-dark text-light dark:bg-light dark:text-dark px-4 py-2 rounded-lg shadow-xl whitespace-nowrap text-sm font-bold z-50 border border-solid border-light dark:border-dark">
+              My Number: 8108741281
+            </div>
+          </div>
 
           <button
             onClick={() => setMode(mode === "light" ? "dark" : "light")}
