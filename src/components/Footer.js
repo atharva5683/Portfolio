@@ -12,15 +12,15 @@ const Footer = () => {
           <span className="text-primary text-2xl px-1">&#9829;</span> by&nbsp;
           <Link
             href="/"
-            className="underline underline-offset-2 text-primary"
+            className="text-primary"
           >
             Atharva Kishor Kumbhar
           </Link>
         </div>
         <Link
-          href="mailto:atharvakumbhar669@gmail.com"
+          href="https://www.linkedin.com/in/atharva-k-028664261/"
           target="_blank"
-          className="underline underline-offset-2 text-primary"
+          className="text-primary"
         >
           Say Hello
         </Link>

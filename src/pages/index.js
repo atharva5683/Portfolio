@@ -75,6 +75,7 @@ export default function Home() {
                 </Link>
                 <Link
                   href="mailto:atharvakumbhar669@gmail.com"
+                  target="_blank"
                   className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
                 >
                   Contact
