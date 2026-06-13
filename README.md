@@ -1,47 +1,53 @@
-# Next.Js Website Tutorial: Create a Stunning Portfolio Website with Nextjs, Tailwind CSS and Framer-motion🌟
+# Atharva Kishor Kumbhar | DevSecOps & Cloud Engineer Portfolio
 
-![GitHub stars](https://img.shields.io/github/stars/codebucks27/Next.js-Developer-Portfolio-Starter-Code?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;
-![GitHub forks](https://img.shields.io/github/forks/codebucks27/Next.js-Developer-Portfolio-Starter-Code?style=social&logo=KashFlow&maxAge=3600)&nbsp;&nbsp;
-![Github Followers](https://img.shields.io/github/followers/codebucks27.svg?style=social&label=Follow)&nbsp;&nbsp;<br />
+Welcome to the source code for my professional developer portfolio! This website was built to showcase my experience, projects, and certifications in the DevSecOps, Cloud Engineering, and Kubernetes ecosystem.
 
-This repository contains starter code for Portfolio website created using NextJs. <br />
+## 🚀 Live Demo
+You can view the live portfolio here: **[Deploying via Vercel]** *(Link your Vercel URL here once configured)*
 
-For Demo and Final Code checkout following link👇: <br />
-[Nextjs Portfolio Website](https://devdreaming.com//videos/nextjs-tutorial-build-portfolio-tailwind-css-framer-motion#code-links) <br />
+## 🛠️ Built With
+This portfolio is built using modern web development technologies to ensure high performance, SEO optimization, and a seamless user experience:
+- **[Next.js](https://nextjs.org/)** - React framework for fast, server-rendered pages.
+- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework for custom styling and responsiveness.
+- **[Framer Motion](https://www.framer.com/motion/)** - Production-ready animation library for React to create smooth, physics-based interactions.
 
-If you want to learn how to create it please follow below tutorial👇: <br />
-https://youtu.be/Yw7yWHigGKI <br />
-[![YouTube Video Views](https://img.shields.io/youtube/views/Yw7yWHigGKI?style=social)](https://youtu.be/Yw7yWHigGKI)<br />
+## ✨ Features
+- **Modern & Responsive Design**: Fully responsive layout that looks great on desktop, tablet, and mobile devices.
+- **Dark/Light Mode**: Integrated theme switcher for comfortable reading in any environment.
+- **Interactive Animations**: Advanced UI elements, floating technical skill badges, and dynamic page transitions.
+- **Optimized Performance**: Next.js image optimization and efficient component rendering.
+
+## 💻 Tech Stack & Skills Showcased
+- **Cloud & Infrastructure**: AWS, GCP, Terraform, Kubernetes, Docker
+- **CI/CD & Automation**: GitLab CI, Jenkins, ArgoCD, Helm
+- **Security**: SonarQube, Trivy, Snyk, OWASP ZAP, Datree
+- **Scripting & Tools**: Bash, Python, Linux
+
+## 📥 Local Development
+To run this project locally on your machine:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/atharva5683/Portfolio.git
+   ```
+2. Navigate into the directory:
+   ```bash
+   cd Portfolio
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+
+## 📬 Contact Me
+Feel free to reach out if you want to collaborate on cloud-native delivery pipelines or secure infrastructure projects!
+- **Email**: [atharvakumbhar669@gmail.com](mailto:atharvakumbhar669@gmail.com)
+- **LinkedIn**: [Atharva Kumbhar](#) *(Add your LinkedIn link here)*
 
 ---
-✨ Checkout my brand new Saas application -> [AI Headshot Generator](https://www.smartheadshots.ai)
-
----
-
-### Images of The Portfolio Website:
-
-![Nextjs Portfolio Website](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/home-light-desktop.png)
-![Nextjs Portfolio Website Dark Mode](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/home-dark-desktop.png)
-![Next.js Portfolio Website](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/about-light-desktop.png)
-![Next js Portfolio Website](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/projects-dark-desktop.png)
-![Portfolio Website In Next.js](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/articles-light-desktop.png)
-![Responsive Portfolio Website In Nextjs](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/about-light-mobile.png)
-![Responsive Portfolio Website In Next js](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/projects-light-mobile.png)
-![Mobile Responsive Portfolio Website In Next.js](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/articles-light-mobile.png)
-
-
-### Resources Used in This Project
-
-- Profile image in the home page created by using https://www.midjourney.com/ tool.
-- Profile image in the about page by [Albert Dera](https://unsplash.com/@albertdera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) 
-on [Unsplash](https://unsplash.com/photos/ILip77SbmOE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
-- Fonts from https://fonts.google.com/ <br />
-- Icons from https://iconify.design/ <br />
-- LightBulb Svg from https://lukaszadam.com/illustrations <br />
-
-### External Libraries used in this project:
-
-- [framer-motion](https://www.framer.com/motion/) <br />
-- [Tailwind css](https://tailwindcss.com/) <br />
-
-
+*Based on a starter template, heavily customized and architected for a DevSecOps showcase.*
