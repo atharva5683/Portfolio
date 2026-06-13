@@ -101,7 +101,7 @@ export default function Certifications() {
               issuer="AWS"
               badgeColor="#FF9900"
               credentialUrl="https://www.credly.com/badges/1ec15dc2-92cd-42e0-915d-8ec477b5e4de/public_url"
-              imageSrc="/images/certificates/aws-certified-cloud-practitioner.jpg"
+              imageSrc="/images/certificates/AWS Certified Cloud Practitioner.png"
               delay={0.1}
             />
             <CertCard
@@ -109,7 +109,7 @@ export default function Certifications() {
               issuer="AWS"
               badgeColor="#FF9900"
               credentialUrl="https://www.credly.com/badges/bce4f0d2-8892-4e51-8cd5-553e3d973067/public_url"
-              imageSrc="/images/certificates/aws-certified-ai-practitioner.jpg"
+              imageSrc="/images/certificates/AWS Certified AI Practitioner.png"
               delay={0.2}
             />
             <CertCard
@@ -117,7 +117,7 @@ export default function Certifications() {
               issuer="Google Cloud"
               badgeColor="#34A853"
               credentialUrl="https://www.credly.com/badges/cc2e0601-b879-42ef-9db4-1e53465b17f7/public_url"
-              imageSrc="/images/certificates/google-cloud-computing-foundations.png"
+              imageSrc="/images/certificates/Google Cloud Computing Foundations Certificate.png"
               delay={0.3}
             />
           </div>
