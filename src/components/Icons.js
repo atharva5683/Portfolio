@@ -1,0 +1,154 @@
+import * as React from "react";
+
+export const GithubIcon = ({ className, ...rest }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    viewBox="0 0 512 512"
+    {...rest}
+    className={`w-full h-auto ${className}`}
+  >
+    <path fill="none" d="M0 0h512v512H0z" />
+    <path
+      fill="currentColor"
+      d="M256 32C132.3 32 32 134.9 32 261.7c0 101.5 64.2 187.5 153.2 217.9a17.56 17.56 0 0 0 3.8.4c8.3 0 11.5-6.1 11.5-11.4 0-5.5-.2-19.9-.3-39.1a102.4 102.4 0 0 1-22.6 2.7c-43.1 0-52.9-33.5-52.9-33.5-10.2-26.5-24.9-33.6-24.9-33.6-19.5-13.7-.1-14.1 1.4-14.1h.1c22.5 2 34.3 23.8 34.3 23.8 11.2 19.6 26.2 25.1 39.6 25.1a63 63 0 0 0 25.6-6c2-14.8 7.8-24.9 14.2-30.7-49.7-5.8-102-25.5-102-113.5 0-25.1 8.7-45.6 23-61.6-2.3-5.8-10-29.2 2.2-60.8a18.64 18.64 0 0 1 5-.5c8.1 0 26.4 3.1 56.6 24.1a208.21 208.21 0 0 1 112.2 0c30.2-21 48.5-24.1 56.6-24.1a18.64 18.64 0 0 1 5 .5c12.2 31.6 4.5 55 2.2 60.8 14.3 16.1 23 36.6 23 61.6 0 88.2-52.4 107.6-102.3 113.3 8 7.1 15.2 21.1 15.2 42.5 0 30.7-.3 55.5-.3 63 0 5.4 3.1 11.5 11.4 11.5a19.35 19.35 0 0 0 4-.4C415.9 449.2 480 363.1 480 261.7 480 134.9 379.7 32 256 32Z"
+    />
+  </svg>
+);
+
+export const LinkedInIcon = ({ className, ...rest }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    viewBox="0 0 256 256"
+    {...rest}
+    className={`w-full h-auto ${className}`}
+  >
+    <path fill="none" d="M0 0h256v256H0z" />
+    <g fill="none">
+      <rect width={256} height={256} fill="#0A66C2" rx={28} />
+      <path
+        fill="#fff"
+        d="M73.616 107.611h-30.23V198h30.23V107.611Zm-15.115-13.95c9.649 0 17.482-7.878 17.482-17.527a17.488 17.488 0 0 0-17.482-17.482c-9.694 0-17.528 7.833-17.528 17.482 0 9.65 7.834 17.528 17.528 17.528ZM197.95 198h-.045v-44.137c0-21.048-4.528-37.26-29.148-37.26-11.816 0-19.74 6.482-22.975 12.638h-.337V107.61h-28.965V198h30.186v-44.766c0-10.207 1.934-20.095 14.592-20.095 12.482 0 12.658 11.66 12.658 20.741V198h30.034Z"
+      />
+    </g>
+  </svg>
+);
+
+export const EmailIcon = ({ className, ...rest }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth={2}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    {...rest}
+    className={`w-full h-auto ${className}`}
+  >
+    <rect x={2} y={4} width={20} height={16} rx={2} />
+    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+  </svg>
+);
+
+export const SunIcon = ({ className, ...rest }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    {...rest}
+    className={`${className}`}
+  >
+    <defs>
+      <mask id="sun-mask">
+        <rect width="24" height="24" fill="white" />
+        <circle cx="12" cy="12" r="4.5" fill="black" />
+        <path
+          d="M12 12v-10 M12 12v10 M12 12h-10 M12 12h10 M12 12l-7-7 M12 12l7 7 M12 12l-7 7 M12 12l7-7"
+          stroke="black"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+        />
+      </mask>
+    </defs>
+    <circle cx="12" cy="12" r="11" fill="currentColor" mask="url(#sun-mask)">
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0 12 12"
+        to="360 12 12"
+        dur="10s"
+        repeatCount="indefinite"
+      />
+    </circle>
+  </svg>
+);
+
+export const MoonIcon = ({ className, ...rest }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    {...rest}
+    className={`${className}`}
+  >
+    <g
+      fill="currentColor"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+    >
+      <path d="M7 6 C7 12.08 11.92 17 18 17 C18.53 17 19.05 16.96 19.56 16.89 C17.95 19.36 15.17 21 12 21 C7.03 21 3 16.97 3 12 C3 8.83 4.64 6.05 7.11 4.44 C7.04 4.95 7 5.47 7 6 Z" />
+    </g>
+  </svg>
+);
+
+export const LinkArrow = ({ className, ...rest }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={24}
+    height={24}
+    viewBox="0 0 24 24"
+    className={`w-full h-auto ${className}`}
+    {...rest}
+  >
+    <path fill="none" d="M0 0h24v24H0z" />
+    <path
+      fill="none"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M11 7H6a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2v-5m-7 1L20 4m0 0h-5m5 0v5"
+    />
+  </svg>
+);
+
+export const CircularText = ({ className, ...rest }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 300 300"
+    className={`w-full h-auto ${className}`}
+    {...rest}
+  >
+    <defs>
+      <path
+        id="circlePath"
+        d="M 150,150 m -110,0 a 110,110 0 1,1 220,0 a 110,110 0 1,1 -220,0"
+      />
+    </defs>
+    <text fill="currentColor" fontSize="34" fontWeight="600" letterSpacing="5">
+      <textPath href="#circlePath">
+        DevSecOps · Cloud · Security · DevOps · 
+      </textPath>
+    </text>
+  </svg>
+);
