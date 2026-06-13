@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { motion } from "framer-motion";
-import { GithubIcon, LinkedInIcon, EmailIcon, SunIcon, MoonIcon } from "./Icons";
+import { GithubIcon, LinkedInIcon, EmailIcon, PhoneIcon, SunIcon, MoonIcon } from "./Icons";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
 
 const CustomLink = ({ href, title, className = "" }) => {
@@ -111,9 +111,17 @@ const NavBar = () => {
             target="_blank"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
-            className="w-6 ml-3"
+            className="w-6 mx-3"
           >
             <EmailIcon />
+          </motion.a>
+          <motion.a
+            href="tel:+918108741281"
+            className="w-6 ml-3"
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.9 }}
+          >
+            <PhoneIcon />
           </motion.a>
 
           <button
@@ -169,9 +177,17 @@ const NavBar = () => {
               target="_blank"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-6 ml-3 text-light dark:text-dark sm:mx-1"
+              className="w-6 mx-3 text-light dark:text-dark sm:mx-1"
             >
               <EmailIcon />
+            </motion.a>
+            <motion.a
+              href="tel:+918108741281"
+              whileHover={{ y: -2 }}
+              whileTap={{ scale: 0.9 }}
+              className="w-6 ml-3 text-light dark:text-dark sm:mx-1"
+            >
+              <PhoneIcon />
             </motion.a>
 
             <button
