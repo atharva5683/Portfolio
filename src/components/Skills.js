@@ -18,7 +18,7 @@ const Skill = ({ name, x, y, url }) => {
         href={url || `https://www.google.com/search?q=${encodeURIComponent(name + ' technology')}`}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center justify-center rounded-full font-semibold bg-dark text-light py-3 px-6 shadow-[0_0_15px_rgba(0,0,0,0.3)] hover:shadow-[0_0_30px_rgba(0,0,0,0.7)] dark:text-dark dark:bg-light dark:shadow-[0_0_15px_rgba(255,255,255,0.4)] hover:dark:shadow-[0_0_30px_rgba(255,255,255,0.9)] border border-solid border-transparent hover:border-light dark:hover:border-dark cursor-pointer lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3 xs:bg-transparent xs:dark:bg-transparent xs:text-dark xs:dark:text-light xs:font-bold xs:shadow-none xs:dark:shadow-none"
+        className="flex items-center justify-center rounded-full font-semibold bg-dark text-light py-3 px-6 shadow-[0_0_15px_rgba(0,0,0,0.3)] hover:shadow-[0_0_30px_rgba(0,0,0,0.7)] dark:text-dark dark:bg-light dark:shadow-[0_0_15px_rgba(255,255,255,0.4)] hover:dark:shadow-[0_0_30px_rgba(255,255,255,0.9)] border border-solid border-transparent hover:border-light dark:hover:border-dark cursor-pointer lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3 xs:text-[10px] xs:py-1 xs:px-2"
         whileHover={{ scale: 1.15 }}
         animate={{ y: [-floatY, floatY, -floatY] }}
         transition={{ duration: floatDuration, repeat: Infinity, ease: "easeInOut" }}
