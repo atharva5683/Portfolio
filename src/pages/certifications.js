@@ -93,7 +93,7 @@ export default function Certifications() {
               issuer="Google Cloud"
               badgeColor="#34A853"
               credentialUrl="https://www.credly.com/badges/ef70bb16-2fcc-4543-8493-e61ce4751a86/public_url"
-              imageSrc="/images/certificates/google-cloud-associate-cloud-engineer.png"
+              imageSrc="/images/certificates/gcp-associate-cloud-engineer-new.png"
               delay={0}
             />
             <CertCard
